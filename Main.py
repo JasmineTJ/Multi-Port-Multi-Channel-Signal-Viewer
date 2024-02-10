@@ -16,7 +16,7 @@ import sys
 import UI
 from Classes import FileBrowser
 
-class MainApp(QtWidgets.QMainWindow, newui.Ui_MainWindow):
+class MainApp(QtWidgets.QMainWindow, UI.Ui_MainWindow):
     def __init__(self):
         super(MainApp, self).__init__()
         self.setupUi(self)
