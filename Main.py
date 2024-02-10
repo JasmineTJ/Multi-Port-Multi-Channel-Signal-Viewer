@@ -13,7 +13,7 @@ import statistics
 
 from pyqtgraph.widgets import PlotWidget
 import sys
-import newui
+import UI
 from Classes import FileBrowser
 
 class MainApp(QtWidgets.QMainWindow, newui.Ui_MainWindow):
